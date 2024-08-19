@@ -1,7 +1,10 @@
-package com.ukg.payrollservice.dto;
+package com.ukg.dto;
+
+import lombok.Data;
 
 import java.time.LocalDate;
 
+@Data
 public class EmployeeDto {
     private String firstName;
     private String lastName;
